@@ -1,0 +1,58 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Virtual Environment =====
+venv/
+env/
+.venv/
+
+# ===== Django =====
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== VSCode =====
+.vscode/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Build =====
+build/
+dist/
+*.egg-info/
+
+# ===== Env file =====
+.env
+
+# Node
+node_modules/
+
+# Env
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+node_modules/
+database.sqlite
+*.log
