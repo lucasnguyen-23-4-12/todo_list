@@ -1,0 +1,15 @@
+:root {
+    --bg-color: #f4f4f4;
+    --container-bg: #ffffff;
+    --text-color: #000000;
+    --item-bg: #f1f1f1;
+    --border-color: #cccccc;
+}
+
+body.dark {
+    --bg-color: #121212;
+    --container-bg: #1e1e1e;
+    --text-color: #eaeaea;
+    --item-bg: #2a2a2a;
+    --border-color: #444444;
+}

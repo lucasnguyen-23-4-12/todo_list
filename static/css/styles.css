@@ -1,0 +1,100 @@
+h2 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* CONTAINER */
+.container {
+    width: 400px;
+    padding: 20px;
+    background: var(--container-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* ====== 3 NÚT TRÊN ====== */
+.header-actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.header-actions button {
+    flex: 1;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    background: var(--container-bg);
+    color: var(--text-color);
+    transition: background 0.2s;
+}
+
+/* Riêng từng nút */
+#download-json {
+    background-color: #28a745;
+    color: white;
+    border: none;
+}
+
+#load-json {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+#download-json:hover {
+    background-color: #218838;
+}
+
+#load-json:hover {
+    background-color: #0056b3;
+}
+
+/* INPUT */
+.input-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid var(--border-color);
+    background: var(--container-bg);
+    color: var(--text-color);
+}
+
+.input-section button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+/* LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: var(--item-bg);
+    border-bottom: 1px solid var(--border-color);
+}
